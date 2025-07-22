@@ -142,13 +142,17 @@ int main() {
     return 0;
 }
 */
-int main(){
-    printf(" BBB   Y  Y   EEEE\n");
-    printf("B   B   YY    E\n");
-    printf(" BBB    Y   Y   EEEE\n");
-    printf(" BBB    Y   Y   EEEE\n");
+/*
+int main() {
+    printf(" BBB   Y  Y  EEEE\n");
+    printf("B   B   YY   E\n");
+    printf(" BBB    Y    EEEE\n");
+    printf("B   B   Y    E\n");
+    printf(" BBB    Y    EEEE");
+    
+    return 0;
 }
-
+*/
 
 
 
