@@ -153,6 +153,44 @@ int main() {
     return 0;
 }
 */
+/*
+int main() {
+    int n, i;
+    float total = 0;
+
+    printf("Enter the number of items: ");
+    scanf("%d", &n);
+
+    char names[n][50];
+    int quantities[n];
+    float prices[n], amounts[n];
+
+    // Input for each item
+    for(i = 0; i < n; i++) {
+        printf("\nEnter name of item %d: ", i+1);
+        scanf("%s", names[i]);
+        printf("Enter quantity: ");
+        scanf("%d", &quantities[i]);
+        printf("Enter price per unit: ");
+        scanf("%f", &prices[i]);
+        amounts[i] = quantities[i] * prices[i];
+        total += amounts[i];
+    }
+
+    // Printing the bill
+    printf("\n************************************\n");
+    printf("Name\tQuantity\tPrice\tAmount\n");
+    printf("------------------------------------\n");
+    for(i = 0; i < n; i++) {
+        printf("%s\t%d\t\t%.2f\t%.2f\n", names[i], quantities[i], prices[i], amounts[i]);
+    }
+    printf("------------------------------------\n");
+    printf("Total amount to be paid: %.2f\n", total);
+    printf("************************************\n");
+
+    return 0;
+}
+*/
 
 
 
