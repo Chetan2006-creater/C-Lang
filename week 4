@@ -1,0 +1,154 @@
+// read numbers until -1 is encountered.als ocount number of negative,positive and zeros entered.//
+/*
+#include <stdio.h>
+int main() {
+    int number;
+    int positiveCount = 0, negativeCount = 0, zeroCount = 0;
+    printf("Enter numbers (enter -1 to stop):");
+    while (1) {
+        scanf("%d", &number);
+        if (number == -1) {
+            break;
+        }
+        if (number > 0) {
+            positiveCount++;
+        } else if (number < 0) {
+            negativeCount++;
+        } else {
+            zeroCount++;
+        }
+    }
+    printf("Count of positive numbers: %d", positiveCount);
+    printf("Count of negative numbers: %d", negativeCount);
+    printf("Count of zeros: %d", zeroCount);
+    
+    return 0;
+}
+*/
+// print the squre of the first n natural numbers
+/*
+#include <stdio.h>
+
+int main() {
+    int n;
+    printf("Enter value of n: ");
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i++) {
+       printf("Square of the numbers is %d\n", i*i);
+       printf("Cube of the numbers is %d \n", i*i*i);
+    }
+    return 0;
+}
+*/
+//print the leap years from 1900 to 2100
+/*
+#include <stdio.h>
+
+int main() {
+    for (int year = 1900; year <= 2100; year++) {
+        if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
+            printf("%d ", year);
+    }
+    return 0;
+}
+*/
+// Finding the prime numbers in between the 100 and 1000
+/*
+#include <stdio.h>
+
+int main() {
+    int i, j, isPrime;
+
+    for (i = 100; i <= 1000; i++) {
+        isPrime = 1;
+        for (j = 2; j * j <= i; j++) {
+            if (i % j == 0) {
+                isPrime = 0;
+                break;
+            }
+        }
+        if (isPrime)
+            printf("%d ", i);
+    }
+    return 0;
+}
+*/
+// Print Fibonacci sequence of numbers.
+/*
+#include <stdio.h>
+
+int main() {
+    int n, a = 0, b = 1, c;
+    printf("Enter number of terms: ");
+    scanf("%d", &n);
+
+    printf("Fibonacci Series: ");
+    for (int i = 1; i <= n; i++) {
+        printf("%d ", a);
+        c = a + b;
+        a = b;
+        b = c;
+    }
+    return 0;
+}
+*/
+// Given number is palindrome or not
+/*
+#include <stdio.h>
+
+int main() {
+    int num, original, reversed = 0, rem;
+    printf("Enter number: ");
+    scanf("%d", &num);
+    original = num;
+
+    while (num != 0) {
+        rem = num % 10;
+        reversed = reversed * 10 + rem;
+        num /= 10;
+    }
+
+    if (original == reversed)
+        printf("Palindrome\n");
+    else
+        printf("Not Palindrome\n");
+
+    return 0;
+}
+*/
+// print the sequence of the
+/*
+    1
+   12
+  123
+ 1234
+12345
+*/
+/*
+#include <stdio.h>
+int main(){
+    int n ;
+    printf("Please enter a number :");
+    scanf("%d", &n);
+    for(int i = 1; i <= n; i++){
+        for(int j = 1; j<= n-i; j++){
+            printf(" ");
+        }
+        for (int k = 1; k<=i; k++){
+            printf("%d", k);
+        }
+        printf("\n");
+    }
+}
+*/
+// Find the given number is a Armstrong number or not
+#include <stdio.h>
+
+int main(){
+    
+}
+
+
+
+
